@@ -21,3 +21,4 @@ static HashMap<Integer,Integer> mm;
         if(mm.get(k)==null)return 0;
         return mm.get(k);
     }
+
