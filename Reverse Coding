@@ -1,0 +1,6 @@
+static int sumOfNaturals(int n) {
+        // code here
+        int mod = 1000000007;
+        long ans=(((long)n*(n+1))/2)%mod;
+        return (int)ans;
+    }
