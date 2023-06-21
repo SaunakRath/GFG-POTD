@@ -4,3 +4,5 @@ static int sumOfNaturals(int n) {
         long ans=(((long)n*(n+1))/2)%mod;
         return (int)ans;
     }
+    
+    
