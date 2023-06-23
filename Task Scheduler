@@ -18,3 +18,4 @@
         int ans = max(N, nax + (nax - 1) * K + count - 1);
         
         return ans;
+
