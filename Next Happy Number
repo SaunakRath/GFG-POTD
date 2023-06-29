@@ -1,5 +1,6 @@
 //   >> JAVA CODE <<
 
+
 class Solution{
 
     static int nextHappy(int N) {
