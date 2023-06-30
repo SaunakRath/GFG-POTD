@@ -8,18 +8,18 @@ class Solution {
         
         for (int i = n - 1; i >= 0; i--) {
             if (s.charAt(i) == '1') {
-                // Increment the count of '1' digits at odd or even positions
+                
                 if ((n - i) % 2 == 0) {
-                    evenCount++; // Increment even count
+                    evenCount++;
                 } else {
-                    oddCount++; // Increment odd count
+                    oddCount++; 
                 }
             }
         }
 
         int diff = evenCount - oddCount;
         if (diff % 3 == 0) {
-            return 1; // Divisible by 3
+            return 1; 
         } else {
             return 0;
 }
