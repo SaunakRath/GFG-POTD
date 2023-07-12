@@ -1,6 +1,5 @@
 class Solution
-{
-        
+{   
    long power(int n,int p)
     {
         //Your code here
