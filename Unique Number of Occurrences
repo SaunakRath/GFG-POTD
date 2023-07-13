@@ -5,7 +5,6 @@ class Solution {
         for(int x:arr)
         map.put(x, map.getOrDefault(x,0)+1);
         
-        
         Set<Integer> set =new HashSet<>();
         for(int x:map.values())
         {
