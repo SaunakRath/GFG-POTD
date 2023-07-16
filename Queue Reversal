@@ -9,7 +9,8 @@ class GfG{
         while(!st.isEmpty())
         q.add(st.pop());
         
-        
+
+
         return q;
     }
 }
