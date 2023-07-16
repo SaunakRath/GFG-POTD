@@ -10,7 +10,6 @@ class GfG{
         q.add(st.pop());
         
 
-
         return q;
     }
 }
