@@ -12,7 +12,6 @@ class Solution
          if(map.get(s.charAt(i))==1)
          return s.charAt(i);
          
-         
          return '$';
     }
 }
