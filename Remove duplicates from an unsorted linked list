@@ -7,7 +7,6 @@ class Solution
           HashSet<Integer> hs = new HashSet<>(); 
          Node curr=head;
          Node prev=null;
-         
          while(curr!=null)
          {
              int val = curr.data;
