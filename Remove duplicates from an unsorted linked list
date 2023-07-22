@@ -11,8 +11,7 @@ class Solution
          {
              int val = curr.data;
              if (hs.contains(val))
-                     prev.next=curr.next;
-                    
+                     prev.next=curr.next;     
              else{
                  hs.add(val);
                  prev=curr;
