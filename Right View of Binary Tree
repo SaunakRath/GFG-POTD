@@ -1,0 +1,30 @@
+class Solution{
+    //Function to return list containing elements of right view of binary tree.
+     int max_level ;
+    ArrayList<Integer> rightView(Node root) {
+        //add code here.
+        ArrayList<Integer> al = new ArrayList<>();
+        max_level =0 ;
+      if (root == null)
+      return al;
+      
+      rightV(al, root,1);
+      return al;
+ 
+    }
+   void rightV( ArrayList a, Node root, int level)
+    {
+        if (root ==null)
+         return;
+        
+        if(max_level<level){
+            a.add(root.data);
+            max_level = level;
+        }
+        
+        rightV(a, root.right, level+1);
+        rightV(a, root.left, level+1);
+        
+    }    
+
+}
