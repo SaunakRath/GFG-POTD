@@ -26,6 +26,5 @@ class Solution{
         rightV(a, root.left, level+1);
         
     }    
-
 }
 
