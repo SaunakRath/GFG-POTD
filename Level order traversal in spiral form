@@ -33,7 +33,6 @@ class Spiral
                  
                  if(temp.left!=null) s1.push(temp.left);
                  if(temp.right!=null)  s1.push(temp.right);
-    
              }
 
          }
