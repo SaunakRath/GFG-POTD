@@ -14,7 +14,6 @@ class Solution
         int cnt=0;
         while(node!=-1)
         {
-
             node = parent[node];
             cnt++;
             if(cnt==k)
