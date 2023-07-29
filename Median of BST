@@ -27,7 +27,6 @@ class Tree
                 
                 curr=curr.right;
             }
-           
             else
             {
                 //move as right as poss
