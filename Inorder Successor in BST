@@ -12,7 +12,6 @@ class Solution
                   ans = root;
                   root= root.left;
               }
-              
               else //(root.data <=x.data)
                   root=root.right;
 
