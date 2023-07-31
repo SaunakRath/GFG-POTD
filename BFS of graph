@@ -23,8 +23,7 @@ class Solution {
                 visited[in]=true;
                 }
             }
-        }
-        
+        } 
         return bfs;
     }
 }
