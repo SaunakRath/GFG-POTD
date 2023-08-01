@@ -3,8 +3,7 @@
 class Solution {
     // Function to return a list containing the DFS traversal of the graph.
     public void dfs(int i,ArrayList<ArrayList<Integer>> adj,ArrayList<Integer> ans,boolean[] visited)
-    {
-        
+    { 
         visited[i]=true;
         ans.add(i);
         for(Integer in:adj.get(i))
