@@ -12,8 +12,7 @@ class Solution {
         {
             if(visited[in]==false)
                 dfs(in,adj,ans,visited);
-        }
-        
+        } 
     }
     public ArrayList<Integer> dfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
         
