@@ -7,7 +7,6 @@ class Solution {
         
         visited[i]=true;
         ans.add(i);
-        
         for(Integer in:adj.get(i))
         {
             if(visited[in]==false)
