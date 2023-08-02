@@ -46,7 +46,7 @@ class Solution {
             
             path++;
         }
-        
+    
             return -1;
     }
 };
