@@ -22,7 +22,7 @@ class Solution {
                 
                 if(cur[0]==X && cur[1]==Y) return path;
                 
-                if(cur[0]+1<N && !visited[cur[0]+1][cur[1]] && A[cur[0]+1][cur[1]]==1)
+                if(cur[0]+1<N && !visited[cur[0]+1][cur[1]] && A[cur[0]+1][cur[1]]==1) 
                 {
                     q.add(new int[]{cur[0]+1,cur[1]});
                     visited[cur[0]+1][cur[1]]=true;
