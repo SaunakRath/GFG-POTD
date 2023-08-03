@@ -25,7 +25,8 @@ class Solution {
 	    
 		Queue<int[]> q=new LinkedList<>();
 		int[] dist=new int[N];
-		
+
+
 		Arrays.fill(dist,Integer.MAX_VALUE);
 		dist[0]=0;
 		
