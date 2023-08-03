@@ -14,6 +14,7 @@ class Solution {
 	        int v=edges[i][1];
 	        int w=edges[i][2]; 
 
+
 	        ArrayList<Integer> t1=new ArrayList<>();
 	    
 	        t1.add(v); t1.add(w);
