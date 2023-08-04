@@ -16,7 +16,6 @@ class Solution
         if(s.isEmpty()) return;
         
         int el=s.pop();
-        
         reverse(s);
         insertAtLast(s,el);
     }
