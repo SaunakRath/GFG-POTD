@@ -6,7 +6,6 @@ class Solution
             s.add(val);    
             return;
         }
-        
         int el=s.pop();
         insertAtLast(s,val);
         s.add(el);
@@ -14,7 +13,6 @@ class Solution
     static void reverse(Stack<Integer> s)
     {
         if(s.isEmpty()) return;
-        
         int el=s.pop();
         reverse(s);
         insertAtLast(s,el);
