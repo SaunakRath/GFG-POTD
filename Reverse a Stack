@@ -18,7 +18,6 @@ class Solution
         int el=s.pop();
         
         reverse(s);
-        
         insertAtLast(s,el);
     }
 }
