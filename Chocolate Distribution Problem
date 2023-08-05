@@ -13,7 +13,6 @@ class Solution
             ans=Math.min(ans,a.get(i+m-1)-a.get(i));
         }
         
-        return ans;
-        
+        return ans;   
     }
 }
