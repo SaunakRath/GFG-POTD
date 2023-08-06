@@ -9,3 +9,4 @@ class Solution:
             a.append(b.join(s[i]))
             b=""
         return a 
+ 
