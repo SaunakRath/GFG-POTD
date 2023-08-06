@@ -1,6 +1,6 @@
 from itertools import permutations
 class Solution:
-    def permutation(self,s):
+    def permutation(self,s): 
         s=list(permutations(s))
         s=sorted(s)
         a=[]
