@@ -8,4 +8,4 @@ class Solution:
         for i in range(len(s)):
             a.append(b.join(s[i]))
             b=""
-        return a
+        return a 
