@@ -6,7 +6,7 @@ class Solution:
         a=[]
         b=""
         for i in range(len(s)):
-            a.append(b.join(s[i]))
+            a.append(b.join(s[i])) 
             b=""
         return a 
  
