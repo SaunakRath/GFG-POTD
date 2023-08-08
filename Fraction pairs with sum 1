@@ -18,7 +18,7 @@ class Solution {
                 HashMap<Integer,Integer> hm =map.get(x);
                 hm.put(y,hm.getOrDefault(y,0)+1);
                 
-            }
+            } 
             //new fraction coming up.
             else{
                 HashMap<Integer,Integer> hm=new HashMap<>();
