@@ -13,7 +13,6 @@ class Solution{
                 N/=st;
             }
             else
-
             {
                 st++;
 
