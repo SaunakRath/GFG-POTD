@@ -21,7 +21,6 @@ class Solution {
                         dp[i][j]=(i+1<=N?dp[i+1][j]:0) + (dp[i][j+coins[i]]);
                     }
 
-
                 }
             }
         }
