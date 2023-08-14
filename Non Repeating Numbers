@@ -1,0 +1,31 @@
+class Solution
+{
+    public int[] singleNumber(int[] nums)
+    {
+        // Code here
+         int x = 0,setBit=0;
+        for(int y:nums)x^=y;
+        for(int i=0;i<=32;i++){
+            int num = 1<<i;
+            if((num&x)!=0){
+                setBit=num;
+                break;
+            }
+        }
+        int first=0,second=0;
+        for(int y:nums){
+            if((y&setBit)!=0)first^=y;
+            else second^=y;
+        }
+        int ans[] = new int[2];
+        if(first<=second){
+            ans[0]=first;
+            ans[1]=second;
+        }
+        else{
+            ans[0]=second;
+            ans[1]=first;
+        }
+        return ans;
+    }
+}
